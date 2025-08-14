@@ -1,0 +1,9 @@
+Programm "Aufgabe04-02"
+{
+    zaehler = 1
+    Ausgabe: "Montag ist der2, zaehler, ". Tag"
+    zaehler = zaehler + 1
+    Ausgabe: "Dienstag ist der", zaehler, ". Tag"
+    zaehler = zaehler + 1
+    Ausgabe: "Und jetzt wird es doch langsam langweilig"
+}
