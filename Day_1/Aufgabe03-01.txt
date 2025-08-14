@@ -1,0 +1,9 @@
+Programm "Aufgabe03-01"
+{
+    zeichen1 = 'H'
+    zeichen2 = 'a'
+    zeichen3 = 'l'
+    zeichen4 = 'l'
+    zeichen5 = 'o'
+    Ausgabe: zeichen1, zeichen2, zeichen3, zeichen4, zeichen5
+}

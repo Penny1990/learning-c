@@ -1,0 +1,8 @@
+Programm "Aufgabe04-01"
+{
+    radius = 1.25
+    pi = 3.1415927
+    umfang = 2 * pi * radius
+    flaeche = pi * radius * radius
+    Ausgabe: umfang, flaeche
+}

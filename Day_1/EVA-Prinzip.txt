@@ -1,0 +1,9 @@
+EINGABE
+    int a = 10
+
+VERARBEITUNG
+    a = 2
+    a = a +  3
+
+AUSGABE
+    AUSGABE(a)

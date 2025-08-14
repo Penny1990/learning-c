@@ -1,0 +1,9 @@
+Programm "Mein Programm"
+{
+FALSCH
+a=5
+    RICHTIG
+    b = 7
+    c = a + b
+    Ausgabe: c
+}

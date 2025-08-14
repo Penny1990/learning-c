@@ -1,0 +1,16 @@
+Programm "fpa02-01"
+{
+    alter = 10
+    c1 = j
+    c2 = u
+    c3 = n
+    c4 = g
+}
+
+{
+    alter = 100
+    c1 = a
+    c2 = l
+    c3 = t
+    c4 = ' '
+}

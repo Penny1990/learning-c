@@ -1,0 +1,5 @@
+Datentypen      Variablenname       Zuweisungsoperator      Literal
+int             ganzzahl            =                       10
+
+Datentypen      Variablenname       Zuweisungsoperator      Literal
+float           kommazahl           =                       2.5

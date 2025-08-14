@@ -1,0 +1,8 @@
+Programm "Aufgabe 01-01"
+{
+    a = 1000
+    b = a/10
+    c = b/10
+    d = c/10
+    Ausgabe: a, b, c, d
+}

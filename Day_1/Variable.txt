@@ -1,0 +1,33 @@
+int a = 10
+Neue Wertespeicherung der Variablen a
+    a = 5
+    a = 2
+
+Erstellung einer Variablen b vom Datentyp int (Ganzzahlen)
+hier: Kein Literal in der Variablen b gespeichert
+
+int b (leer)
+Speicherung einer Variablen a in der Variablen b
+b = a
+
+a = 2
+b = 2
+
+b = 2 * 3
+b = 4 - 2
+
+b = a * 6
+
+Reflexiver Ausdruck
+b = b - 3
+
+int c = 3
+
+Reflexiver Ausdruck
+c = c * 2
+
+
+int a = EINGABE
+
+int a 
+a = EINGABE

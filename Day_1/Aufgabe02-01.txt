@@ -1,0 +1,10 @@
+Programm "Aufgabe02-01"
+{
+    a = 25
+    b = -100
+    summe = a+b
+    differenz = a-b
+    produkt = a*b
+    quotient = a/b
+    Ausgabe: summe, differenz, produkt, quotient
+}

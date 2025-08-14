@@ -1,0 +1,14 @@
+Ganzzahlen
+    Integer c = 1
+
+Kommazahlen
+    Kleinerer Speicherplatz (4 Byte)
+        Float b = 2.012121212 
+        - 127.000.000 <=> 127.000.000 
+    Größerer Speicherplatz (doppelt so groß wie Float) (8 Byte)
+        Double c = 3.5
+        Double c2 = 3500000
+        - 255.000.000 <=> 255.000.000
+
+Einzelne Zeichen (Buchstaben) 
+    Char d = 'g'

@@ -1,0 +1,21 @@
+Programm "Name des Programms"
+{
+    a = 5
+    b = 7
+    c = a + b
+    Ausgabe: c
+}
+
+
+Pseudocode ist eine schriftliche Form des Programmierens und arbeitet mit Texten, die an einen „echten“ (Quell)-Code 
+erinnern sollen. Der Pseudocode richtet sich an Programmierer, ohne sich jedoch dabei festzulegen, welche 
+Programmier-Sprachen diese Programmierer bereits beherrschen. Ziel ist es vielmehr, für möglichst jeden Programmierer 
+verständlich zu sein.
+
+Ähnlich wie beim echten Quellcode wird auf ein gewisses „Layout“ geachtet, um die Lesbarkeit zu verbessern. 
+Dies bedeutet vor allem, dass sogenannte Anweisungsblöcke durch geschweifte Klammern – also { und } - 
+eingerahmt werden, so dass deutlich wird, wo ein solcher Block beginnt und wo er aufhört. Ferner werden alle 
+Anweisungen, die zu diesem Block gehören, innerhalb der geschwungenen Klammer eingerückt notiert. (siehe hierzu 
+die Musterlösung)
+
+Eingaben, Zuweisungen und Ausgaben werden so notiert, wie wir dies bereits beim PAP und Struktogrammen kennengelernt haben
