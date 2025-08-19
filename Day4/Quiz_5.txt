@@ -1,0 +1,196 @@
+Welche Platzhalter sind euch bekannt?
+
+    %d / %i => Ganze Zahlen
+    %c => Einzelnes Zeichen
+    %s => Zeichenkette => TF_US_P2
+    %f => Kommazahl
+
+Welche Operatoren sind euch bekannt?
+
+    Adressoperator &-Operator
+    Arithmetische Operatoren (+-*/)
+    Logischen Operatoren (AND OR XOR NOT)
+    Bitoperatoren 
+    Vergleichsoperatoren (< > <= >= == != )
+    Zuweisungsoperatoren ( = += -= /= *= )
+
+Wie wird ein char (Character)-Variable notiert in C für den Buchstaben H?
+
+    char zeichen = 'H';
+
+Was stellt der sog. &-Operator dar? 
+    
+    Adressoperator &-Operator
+
+Was wird in einer Anweisung wie scanf("%d", &x); codiert?
+
+    Kodierung von Eingaben
+    Speicherung in den RAM
+    Ganzzahl wird in die Variable x gespeichert
+
+Was ist der Anwendungszweck der Funktion fflush(stdin)?
+
+    Leerung des Tastaturpuffers
+
+Für die Eingabe welcher Datentypen wird fflush(stdin) empfohlen?
+
+    Character & Strings
+    => Meister Speicherplatz notwendig
+    => "Hallo Welt"
+    => 'H' = 4 Byte
+    => 'a' = 4 Byte
+    => ...
+
+Welche Bestandteile der Code-Struktur befinden sich in folgender Code-Zeile?
+
+    Definition      Deklaration             Zuweisungsoperator      Initialisierung
+    int             zahl                    =                       10;
+
+Aus welcher Bibliothek stammt die scanf() - Funktion?
+
+    stdio.h
+
+Wofür steht die Abkürzung stdin?
+
+    Standardinput
+
+
+Wofür stehen in C Codebestandteile, die mit # beginnen?
+
+    #include <stdio.h>
+    #include <time.h>
+
+    Präprozessoranweisung
+    Hinzufügen von Bibliotheken
+
+Zu welchem Programmierparadigma zählt die Programmiersprache C?
+
+    Imperativ-Prozedural
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    char zeichen = "s"; => '' notwendig
+    int zahl => ; fehlend
+    float kommazahl;
+
+    printf("%c", zeichen) => ; fehlend
+    scanf("%", &zahl); => Platzhalterangabe %d fehlend
+    => fflush(stdin) fehlend
+    printf("%i", zahl);
+    kommazahl=2,59; => fehlerhaft 2.59
+    printf("%1f", kommazahl); => .1f korrekt
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <studio.h> => #include <stdio.h> korrekt
+
+int main(){
+    int zahl1;
+
+    int zahl2 = scanf("%d", &zahl2);
+    => fflush fehlend
+    printf("%d", zahl1); => Ausgabe eines "random" vom Compiler gewählten Wertes
+    printf("%d", zahl2);
+    printf("%d", zahl1-zahl2) => ; fehlend, Ergebnis der Rechnung kann direkt in printf() erfolgen
+    
+    zahl1 = zahl2 + 3;
+    printf(zahl1); => Platzhalter fehlend
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main(){
+
+    fflush(stdin);
+
+    char zeichen = 'a';
+    char zeichen = '\t'; => Doppelte Definition / Deklaration nicht möglich
+    char zeichen3;
+
+    scanf("%d", zeichen3); => Falscher Platzhalter, Leerzeichen vor Platzhalter fehlend,  Adressoperator bei zeichen3 nicht angegeben
+    => fflush(stdin); ergänzen
+    printf("%d", zeichen3); => Falscher Platzhalter, ASCII-Wert wird ausgegeben
+
+    printf("Das Zeichen ist %c", &zeichen); => Adressoperator nicht notwendig bei einer Ausgabe
+
+    => return 0; fehlend    
+}

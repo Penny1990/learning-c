@@ -1,0 +1,15 @@
+Programm "Altersbestimmung 2.0"
+{
+    Eingabe: aktJahr
+    Eingabe: gebJahr
+    Eingabe: schonGeburtstagGehabt
+    falls(schonGeburtstagGehabt='j')
+    {
+        alter=aktJahr-gebJahr
+    }
+    sonst 
+    {
+        alter=aktJahr-gebJahr-1
+    }
+    Ausgabe: alter
+}

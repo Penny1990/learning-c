@@ -1,0 +1,19 @@
+Programm "Prüfungsergebnis"
+{
+    Ausgabe: "Geben sie bitte die maximal erreichbare Punktzahl ein: "
+    Eingabe: gesamtpunktzahl
+    Ausgabe: "Geben sie bitte die erreichte Punktzahl ein: " 
+    Eingabe: punktzahl
+
+    prozent = (punktzahl/gesamtpunktzahl) * 100
+
+    falls (punktzahl >= gesamtpunktzahl / 2)
+    {
+        Ausgabe: "Sie haben ", prozent, "Prozent erreicht und bestanden."
+    }
+
+    sonst
+    {
+        Ausgabe: "Sie haben ", prozent, "Prozent erreicht und nicht bestanden."
+    }
+}

@@ -1,0 +1,33 @@
+Programm "fpa03_04"
+{
+    Ausgabe: "Geben Sie bitte eine ganze Zahl ein: "
+    Eingabe: zahl
+
+    falls (zahl < 0)
+    {
+        Ausgabe: "Ihre Eingabe ist ", zahl1, "eine negative Zahl.
+    }
+
+    falls (zahl = 0)
+    {
+        Ausgabe: "Ihre Eingabe ist Null."
+    }
+
+    falls (zahl > 0)
+    {
+        Ausgabe: "Ihre Eingabe ", zahl, "ist eine positive Zahl."
+    }
+
+    falls (zahl > 10)
+    {
+        Ausgabe: "Ihre Eingabe ", zahl, "ist eine positive Zahl."
+        Ausgabe: "Ihre Eingabe ", zahl, "liegt sogar oberhalb von 10!"
+    }
+    
+    
+    
+
+    
+
+    Ausgabe: 
+}
