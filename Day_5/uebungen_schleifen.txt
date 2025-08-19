@@ -1,1 +1,12 @@
 
+Programm „Schleifen-Beispiel“ 
+{
+    Eingabe: x
+    solange(x>1)
+    {
+        x=x/2
+        Ausgabe: x
+    }
+
+    Ausgabe: „Schleife wurde beendet“
+}
